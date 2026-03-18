@@ -1,0 +1,20 @@
+{
+  "name": "iphone-ceylon-mobile",
+  "version": "1.0.0",
+  "description": "Monorepo for iPhone Ceylon Mobile",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:store": "cd frontend-store && npm run dev",
+    "dev:admin": "cd frontend-admin && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:store\" \"npm run dev:admin\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
