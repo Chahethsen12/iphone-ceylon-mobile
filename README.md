@@ -72,6 +72,11 @@ We follow an Agile development process. Contributors should follow these steps t
 5. **Open a Pull Request (PR):** Push your branch up and open a PR into `main`. Tag your Scrum Master or a senior engineer for review.
 6. **Merge & Deploy:** Once approved, your code will be merged and incorporated into the next continuous deployment pipeline.
 
+## 🧪 Testing the Application
+
+We highly encourage rigorous testing, especially validating our high-availability database architecture. 
+For comprehensive instructions on how to test normal operations vs disaster recovery scenarios (MongoDB Offline), please follow the steps outlined in our [TESTING_GUIDE.md](./TESTING_GUIDE.md).
+
 ---
 
 ## 🌍 Deployment
