@@ -80,6 +80,6 @@ For comprehensive instructions on how to test normal operations vs disaster reco
 ---
 
 ## 🌍 Deployment
-When a Sprint concludes, the project is deployed. The backend is geared to automatically deploy via Render.com using our `render.yaml` blueprint, while the two React frontends are optimized for Vercel. 
+When a Sprint concludes, the project is deployed. The backend is geared to automatically deploy via **Railway** to ensure high-speed API performance, while the two React frontends are optimized for Vercel. 
 
 For the complete, step-by-step pipeline on how absolute beginners can deploy this architecture to the public, see the official **Deployment Guide** file associated with this project.
